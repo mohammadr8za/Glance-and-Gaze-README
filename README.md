@@ -42,7 +42,12 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
 
 For more information, click [here](https://arxiv.org/abs/2106.11789).
 ## Requirements
-
+- Python (version X.X)
+- PyTorch (version X.X)
+- Other dependencies:
+  ```
+  pip install -r requirements.txt
+  ```
 ## Installation
 
 ## Usage
