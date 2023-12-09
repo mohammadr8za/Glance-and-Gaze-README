@@ -1,4 +1,4 @@
-# GaGNet: Glance and Glaze Network for Monaural Speech Enhancement
+# GaGNet: Glance and Gaze Network for Monaural Speech Enhancement
 
 GaGNet is a deep learning-based technique for monaural speech enhancement that leverages the human hearing system's ability to focus on local information provided in the speech signal while capturing contextual or global features.
 
@@ -17,7 +17,7 @@ Overall diagram of the implemented technique is provided below:
 - [License](#license)
 
 ## Overview
-As presented in the block diagram GaGNet comprises two main modules: Featrure Extraction Module (FEM) and a stack of Glance-Glaze Modules (GGMs). 
+As presented in the block diagram GaGNet comprises two main modules: Featrure Extraction Module (FEM) and a stack of Glance-Gaze Modules (GGMs). 
 
 **Input:** Speech (or generally audio) has various ways to be represented, going from raw time series to time-frequency representations. Selection of an approriate representation plays a crucial role in the overall performance of your system. In the time-frequency domain, spectrogram has been proved to be a useful choice. Spectrograms consist in 2D image-like structures representing sequences of Short Time Fourier Transform (STFT) with time and frequency as axes, while brightness shows the strength of each frequency component at each time. Spectrograms include magnitude and phase components that each of them includes useful information during the enhancement process. In this project, despite previous techniques adopting only magnitude of the spectrogram, both magnitude and phase are utilized to provide a comprehensive method for speech enhancement as it has been shown that phase-inclusion during speech enhancement improves the results.
 
@@ -26,7 +26,7 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
   <img src="https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca" alt="image" width="25%" height="60%">
 </p>
 
-**Glance-Glaze Module (GGM):** 
+**Glance-Gaze Module (GGM):** The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB).
 ## Requirements
 
 ## Installation
