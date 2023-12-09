@@ -66,8 +66,14 @@ git clone https://github.com/USERNAME/REPOSITORY.git
    ```
 
 ## Results
-
+We have extensively tested and evaluated GaGNet in different versions (by changing number of Glance-Gaze blocks (Q) and groups of S-TCMs (P), and compared it with other state-of-the-art speech enhancement methods. The results demonstrate that GaGNet provides competitive performance in terms of effectiveness and efficiency, providing enhanced speech quality. 
 
 ## Contributing
+We welcome contributions from the community! If you would like to contribute to GaGNet, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push your branch to your fork.
+4. Submit a pull request with a detailed description of your changes.
 
 ## License
+Ⓒ 2023 X. All rights reserved. 
