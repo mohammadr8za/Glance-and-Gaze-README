@@ -55,8 +55,18 @@ git clone https://github.com/USERNAME/REPOSITORY.git
 ```
 
 ## Usage
+1. Prepare your speech dataset
+2. Train the GaGNet model using the provided training script:
+   ```
+   python train.py --dataset PATH_TO_DATASET --parameters OTHER_PARAMETERS
+   ```
+3. Evaluate the trained model on a test dataset:
+   ```
+   pyhton evaluate.py --dataset PATH_TO_TEST_DATASET --model PATH_TO_TRAINED_MODEL
+   ```
 
 ## Results
+
 
 ## Contributing
 
