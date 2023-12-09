@@ -32,22 +32,26 @@
 </div>
 
 <div align="justify"> 
-  **Feature Extraction Module (FEM):** As its name suggests, this module aims at extracting features from inputs. To mitigate the problem of information loss due to consecutive downsampling operators in the previously suggested encoders (feature extractors) and the issue of overlooking contextual information caused by small kernel size, ispired by $U^{2}Net$ normal 2D convolutional layers are replaced by recalibrated encoder layers (RELs). FEM mainly consists of a 2D-GLU, instance normalization (IN), PReLU, and a UNet block with the residual connection as shown in the figure below. 
+  <b>Feature Extraction Module (FEM):</b> As its name suggests, this module aims at extracting features from inputs. To mitigate the problem of information loss due to consecutive downsampling operators in the previously suggested encoders (feature extractors) and the issue of overlooking contextual information caused by small kernel size, ispired by $U^{2}Net$ normal 2D convolutional layers are replaced by recalibrated encoder layers (RELs). FEM mainly consists of a 2D-GLU, instance normalization (IN), PReLU, and a UNet block with the residual connection as shown in the figure below. 
 </div>
 <p align="center">
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/8ef4e528-b243-4466-ad43-8007aad8e86d" alt="image" width="25%" height="60%">
 </p>
 
-**Glance-Gaze Module (GGM):** The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB). GLB estimates a gain function to suppress the noise in the magnitude domain, leading to the *glance* towards the overall spectrum. At the same time, GAB seeks a residual to repair the spectral details in the complex domain, which serves as the *gaze* operation. Both outputs are then applied to the collaborative reconstruction module (CRM) to obtain the spectrum estimation. Moreover, to adopt the multi-stage training strategy, multiple GGMs are repeatedly stacked and the RI (Real and Imaginary) components of current stage are iteratively updated based on that of the last stage. Structure of GLB and GAB are shown in Figure below. 
-
+<div align="justify"> 
+  <b>Glance-Gaze Module (GGM):</b> The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB). GLB estimates a gain function to suppress the noise in the magnitude domain, leading to the *glance* towards the overall spectrum. At the same time, GAB seeks a residual to repair the spectral details in the complex domain, which serves as the *gaze* operation. Both outputs are then applied to the collaborative reconstruction module (CRM) to obtain the spectrum estimation. Moreover, to adopt the multi-stage training strategy, multiple GGMs are repeatedly stacked and the RI (Real and Imaginary) components of current stage are iteratively updated based on that of the last stage. Structure of GLB and GAB are shown in Figure below. 
+</div>
 <p align="center">
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/dfc22d8c-e242-46d6-b272-e4b4d8443187" alt="image" width="50%" height="60%">
 </p>
 
-Note: In the figure, S-TCM stands for the Squeezed version of Temporal Convolutional Module.
+<div align="justify"> 
+  Note: In the figure, S-TCM stands for the Squeezed version of Temporal Convolutional Module.
+</div>
 
-**Collaborative Reconstruction Module (CRM):** This module uses and combines the outputs of GGMs and estimates the RI spectrum as shown in the Figure below.
-
+<div align="justify"> 
+  <b>Collaborative Reconstruction Module (CRM):</b> This module uses and combines the outputs of GGMs and estimates the RI spectrum as shown in the Figure below.
+</div>
 <p align="center">
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/d264d90b-d7b6-4d36-b177-21127c31674e" alt="image" width="25%" height="60%">
 </p>
