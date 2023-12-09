@@ -36,10 +36,8 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
 
 **Collaborative Reconstruction Module (CRM):** This module uses and combines the outputs of GGMs and estimates the RI spectrum as shown in the Figure below.
 
-![CRM](https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/17690888-457d-4712-b738-f4b18105396f)
-
 <p align="center">
-  <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/17690888-457d-4712-b738-f4b18105396f" alt="image" width="50%" height="30%">
+  <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/17690888-457d-4712-b738-f4b18105396f" alt="image" width="25%" height="60%">
 </p>
 
 ## Requirements
