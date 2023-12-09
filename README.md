@@ -1,6 +1,8 @@
 # GaGNet: Glance and Gaze Network for Monaural Speech Enhancement
+<div align="justify">
+  GaGNet is a deep learning-based technique for monaural speech enhancement that leverages the human hearing system's ability to focus on local information provided in the speech signal while capturing contextual or global features.
+</div>
 
-GaGNet is a deep learning-based technique for monaural speech enhancement that leverages the human hearing system's ability to focus on local information provided in the speech signal while capturing contextual or global features.
 
 ## Block Diagram
 Overall diagram of the implemented technique is provided below: 
