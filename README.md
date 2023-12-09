@@ -32,6 +32,10 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/86a45ca7-acdf-4fa4-9d4e-0c4b2077a8d5" alt="image" width="50%" height="60%">
 </p>
 
+*Note:* In the figure, S-TCM stands for the Squeezed version of temporal convolutional module.
+
+**Collaborative Reconstruction Module (CRM):** 
+
 ## Requirements
 
 ## Installation
