@@ -8,10 +8,11 @@ Overall diagram of the implemented technique is provided below:
 ![GaGNetBD](https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/6d2053f6-8425-48c4-bb2b-34d7810a426a)
 
 ## Table of Contents
-- [Review](#review)
+- [Overview](#Overview)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
+
