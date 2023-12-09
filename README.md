@@ -29,7 +29,7 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
 **Glance-Gaze Module (GGM):** The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB). GLB estimates a gain function to suppress the noise in the magnitude domain, leading to the *glance* towards the overall spectrum. At the same time, GAB seeks a residual to repair the spectral details in the complex domain, which serves as the *gaze* operation. Both outputs are then applied to the collaborative reconstruction module (CRM) to obtain the spectrum estimation. Moreover, to adopt the multi-stage training strategy, multiple GGMs are repeatedly stacked and the RI (Real and Imaginary) components of current stage are iteratively updated based on that of the last stage. Structure of GLB and GAB are shown in Figure below. 
 
 <p align="center">
-  <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/86a45ca7-acdf-4fa4-9d4e-0c4b2077a8d5" alt="image" width="50%" height="60%">
+  <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/dfc22d8c-e242-46d6-b272-e4b4d8443187" alt="image" width="50%" height="60%">
 </p>
 
 *Note:* In the figure, S-TCM stands for the Squeezed version of temporal convolutional module.
