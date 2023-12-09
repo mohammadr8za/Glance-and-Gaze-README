@@ -17,3 +17,15 @@ Overall diagram of the implemented technique is provided below:
 - [License](#license)
 
 ## Overview
+
+## Requirements
+
+## Installation
+
+## Usage
+
+## Results
+
+## Contributing
+
+## License
