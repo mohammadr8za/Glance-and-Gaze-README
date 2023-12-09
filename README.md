@@ -25,6 +25,9 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
 
 ![FEM_GaGNet](https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca)
 
+<img src="https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca" alt="image" width="50%" height="auto">
+
+
 **Glance-Glaze Module (GGM):** 
 ## Requirements
 
