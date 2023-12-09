@@ -26,7 +26,8 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca" alt="image" width="25%" height="60%">
 </p>
 
-**Glance-Gaze Module (GGM):** The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB).
+**Glance-Gaze Module (GGM):** The motivation behind GGM is stemmed from the phusiological phenomenon that human can pay attention to both global and local components concurrently. So, two parallel block are designed accordingly, namely Glance Block (GLB) and Gaze Block (GAB). GLB estimates a gain function to suppress the noise in the magnitude domain, leading to the *glance* towards the overall spectrum. At the same time, GAB seeks a residual to repair the spectral details in the complex domain, which serves as the *gaze* operation. 
+
 ## Requirements
 
 ## Installation
