@@ -23,9 +23,7 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
 
 **Feature Extraction Module (FEM):** As its name suggests, this module aims at extracting features from inputs. To mitigate the problem of information loss due to consecutive downsampling operators in the previously suggested encoders (feature extractors) and the issue of overlooking contextual information caused by small kernel size, ispired by $U^{2}Net$ normal 2D convolutional layers are replaced by recalibrated encoder layers (RELs). FEM mainly consists of a 2D-GLU, instance normalization (IN), PReLU, and a UNet block with the residual connection as shown in the figure below. 
 
-![FEM_GaGNet](https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca)
-
-<img src="https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca" alt="image" width="50%" height="auto">
+<img src="https://github.com/mohammadr8za/Glance-and-Glaze-s-README/assets/72736177/99608d76-fe14-425e-a439-b4ff4c039aca" alt="image" width="20%" height="50%">
 
 
 **Glance-Glaze Module (GGM):** 
