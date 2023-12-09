@@ -43,12 +43,16 @@ Note: In the figure, S-TCM stands for the Squeezed version of Temporal Convoluti
 For more information, click [here](https://arxiv.org/abs/2106.11789).
 ## Requirements
 - Python (version X.X)
-- PyTorch (version X.X)
+- Torch (version X.X)
 - Other dependencies:
   ```
   pip install -r requirements.txt
   ```
 ## Installation
+Clone the repository using the following command:
+```
+git clone https://github.com/USERNAME/REPOSITORY.git
+```
 
 ## Usage
 
