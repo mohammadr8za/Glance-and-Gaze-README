@@ -32,7 +32,7 @@
 </div>
 
 <div align="justify"> 
-  <b>Feature Extraction Module (FEM):</b> As its name suggests, this module aims at extracting features from inputs. To mitigate the problem of information loss due to consecutive downsampling operators in the previously suggested encoders (feature extractors) and the issue of overlooking contextual information caused by small kernel size, ispired by $U^{2}Net$ normal 2D convolutional layers are replaced by recalibrated encoder layers (RELs). FEM mainly consists of a 2D-GLU, instance normalization (IN), PReLU, and a UNet block with the residual connection as shown in the figure below. 
+  <b>Feature Extraction Module (FEM):</b> As its name suggests, this module aims at extracting features from inputs. To mitigate the problem of information loss due to consecutive downsampling operators in the previously suggested encoders (feature extractors) and the issue of overlooking contextual information caused by small kernel size, ispired by U<sup>2</sup>Net normal 2D convolutional layers are replaced by recalibrated encoder layers (RELs). FEM mainly consists of a 2D-GLU, instance normalization (IN), PReLU, and a UNet block with the residual connection as shown in the figure below. 
 </div>
 <p align="center">
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/8ef4e528-b243-4466-ad43-8007aad8e86d" alt="image" width="25%" height="60%">
