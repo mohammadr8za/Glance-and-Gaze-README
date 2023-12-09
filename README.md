@@ -49,6 +49,7 @@
   Note: In the figure, S-TCM stands for the Squeezed version of Temporal Convolutional Module.
 </div>
 
+
 <div align="justify"> 
   <b>Collaborative Reconstruction Module (CRM):</b> This module uses and combines the outputs of GGMs and estimates the RI spectrum as shown in the Figure below.
 </div>
