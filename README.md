@@ -40,6 +40,7 @@ As presented in the block diagram GaGNet comprises two main modules: Featrure Ex
   <img src="https://github.com/mohammadr8za/Glance-and-Gaze-README/assets/72736177/17690888-457d-4712-b738-f4b18105396f" alt="image" width="25%" height="60%">
 </p>
 
+For more information on each block, click [here](https://arxiv.org/abs/2106.11789).
 ## Requirements
 
 ## Installation
