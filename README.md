@@ -18,6 +18,7 @@ Overall diagram of the implemented technique is provided below:
 
 ## Overview
 As presented in the block diagram GaGNet comprises two main modules: Featrure Extraction Module (FEM) and a stack of Glanc-Glaze Modules (GGMs). 
+
 **Input:** Speech (or generally audio) has various ways to be represented, going from raw time series to time-frequency representations. Selections of an approriate representation plays a crucial role in the overall performance of your system. In the time-frequency domain, spectrogram has been proved to be a useful choice. Spectrograms consist in 2D images representing sequences of Short Time Fourier Transform (STFT) with time and frequency and axes, while brightness shows the strength of each frequency component at each time. 
 ## Requirements
 
