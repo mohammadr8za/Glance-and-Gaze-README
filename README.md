@@ -17,7 +17,7 @@ Overall diagram of the implemented technique is provided below:
 - [License](#license)
 
 ## Overview
-
+As presented in the block diagram GaGNet generally comprises two main modules: Featrure Extraction Module (FEM) and a stack of Glance and Glaze Modules (GGMs). 
 ## Requirements
 
 ## Installation
