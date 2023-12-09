@@ -9,3 +9,9 @@ Overall diagram of the implemented technique is provided below:
 
 ## Table of Contents
 - [Review](#review)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
